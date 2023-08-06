@@ -258,7 +258,14 @@ Apple’s Profile — GitHub. Дата обращения: 4 июня 2016. Ар
     Wikimedia Foundation
     Powered by MediaWiki
 
+          
 ''')
+  def THE_MOST_MOST_MOST_USELESS_FUNC():
+    print(str(1))
+    if True == True:
+      if False != True:
+        while False:
+          True,False
   def MOST_STUFF_THAT_ACTIVATE_ALL_OF_THIS_AND_DEACTIVATE_THEMSELF_WHILE_YOU_DONT_STOP_IT():
     while True:
       exit()
