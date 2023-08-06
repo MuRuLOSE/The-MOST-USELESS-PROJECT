@@ -1,2 +1,3 @@
 # The-MOST-USELESS-PROJECT
-<br>Just the MOST USELESS PROJECT IN THE HISTORY<br>
+
+<br>Just THE MOST USELESS PROJECT IN THE HISTORY (but not really, beginners in Python can borrow features from this code)<br>
