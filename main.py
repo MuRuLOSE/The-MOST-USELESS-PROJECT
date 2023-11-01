@@ -2,13 +2,13 @@ import os
 import math
 import random
 class MOST_USELESS_CLASS:
-  def output(args):
-    print(args)
-  def input(args):
-    input(args)
-    print(args)
-  def execute(args):
-    exec(args)
+  def output(self):
+    print(self)
+  def input(self):
+    input(self)
+    print(self)
+  def execute(self):
+    exec(self)
   def MOST_USELESS_FUNC():
     print(2+2*2+2/9) 
   def MOST_USELESS_INFO():
@@ -261,22 +261,18 @@ Apple’s Profile — GitHub. Дата обращения: 4 июня 2016. Ар
           
 ''')
   def THE_MOST_MOST_MOST_USELESS_FUNC():
-    print(str(1))
-    if True == True:
-      if False != True:
-        while False:
-          True,False
+    print(1)
+    while False:
+      True,False
   def MOST_STUFF_THAT_ACTIVATE_ALL_OF_THIS_AND_DEACTIVATE_THEMSELF_WHILE_YOU_DONT_STOP_IT():
     while True:
       exit()
   def MOST_STUFF_THAT_ACTIVATE_ALL_OF_THIS_AND_ACTIVATE_THEMSELF_WHILE_YOU_DONT_STOP_IT():
-    MOST_USELESS_CLASS.output(None)  
+    MOST_USELESS_CLASS.output(None)
     a = MOST_USELESS_CLASS.input("y or n: ")
     if a == "y":
       MOST_USELESS_CLASS.execute(MOST_USELESS_CLASS.MOST_STUFF_THAT_DEACTIVATE_ALL_OF_THIS_AND_ACTIVATE_THEMSELF_WHILE_YOU_DONT_STOP_IT())
-    elif a == "n":
-      pass
-    else:
+    elif a != "n":
       print("y or n")
     MOST_USELESS_CLASS.MOST_USELESS_FUNC()
     MOST_USELESS_CLASS.MOST_USELESS_INFO()
